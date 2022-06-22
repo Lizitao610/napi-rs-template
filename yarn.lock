@@ -100,29 +100,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@napi-rs/zitao-package-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@napi-rs/zitao-package-template@workspace:."
-  dependencies:
-    "@napi-rs/cli": ^2.9.0
-    "@swc-node/register": ^1.5.1
-    "@typescript-eslint/eslint-plugin": ^5.27.1
-    "@typescript-eslint/parser": ^5.27.1
-    ava: ^4.3.0
-    benny: ^3.7.1
-    chalk: ^5.0.1
-    eslint: ^8.17.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.0.0
-    husky: ^8.0.1
-    lint-staged: ^13.0.1
-    npm-run-all: ^4.1.5
-    prettier: ^2.6.2
-    typescript: ^4.7.3
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -482,6 +459,29 @@ __metadata:
   checksum: 15f228ad9ffaf0e42cc6b2ee4e5095c1e89c4c2dc46a65d19ca0e2296d88c08a1192039d942bd9600b1496176749f6322d636dd307602dbab90404a9501b4d6e
   languageName: node
   linkType: hard
+
+"@zitao/napi-package-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@zitao/napi-package-template@workspace:."
+  dependencies:
+    "@napi-rs/cli": ^2.9.0
+    "@swc-node/register": ^1.5.1
+    "@typescript-eslint/eslint-plugin": ^5.27.1
+    "@typescript-eslint/parser": ^5.27.1
+    ava: ^4.3.0
+    benny: ^3.7.1
+    chalk: ^5.0.1
+    eslint: ^8.17.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.0.0
+    husky: ^8.0.1
+    lint-staged: ^13.0.1
+    npm-run-all: ^4.1.5
+    prettier: ^2.6.2
+    typescript: ^4.7.3
+  languageName: unknown
+  linkType: soft
 
 "abbrev@npm:1":
   version: 1.1.1
