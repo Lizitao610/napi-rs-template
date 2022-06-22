@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-freebsd-x64",
+  "name": "@zitao/napi-package-template-freebsd-x64",
   "version": "3.0.1",
   "os": [
     "freebsd"

@@ -30,7 +30,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.android-arm64.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-android-arm64')
+            nativeBinding = require('@zitao/napi-package-template-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -42,7 +42,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.android-arm-eabi.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-android-arm-eabi')
+            nativeBinding = require('@zitao/napi-package-template-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -60,7 +60,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-win32-x64-msvc')
+            nativeBinding = require('@zitao/napi-package-template-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -72,7 +72,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-win32-ia32-msvc')
+            nativeBinding = require('@zitao/napi-package-template-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -84,7 +84,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-win32-arm64-msvc')
+            nativeBinding = require('@zitao/napi-package-template-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -102,7 +102,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.darwin-x64.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-darwin-x64')
+            nativeBinding = require('@zitao/napi-package-template-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -114,7 +114,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.darwin-arm64.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-darwin-arm64')
+            nativeBinding = require('@zitao/napi-package-template-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -133,7 +133,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./package-template.freebsd-x64.node')
       } else {
-        nativeBinding = require('@napi-rs/package-template-freebsd-x64')
+        nativeBinding = require('@zitao/napi-package-template-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -148,7 +148,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./package-template.linux-x64-musl.node')
             } else {
-              nativeBinding = require('@napi-rs/package-template-linux-x64-musl')
+              nativeBinding = require('@zitao/napi-package-template-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -159,7 +159,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./package-template.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('@napi-rs/package-template-linux-x64-gnu')
+              nativeBinding = require('@zitao/napi-package-template-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -173,7 +173,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./package-template.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('@napi-rs/package-template-linux-arm64-musl')
+              nativeBinding = require('@zitao/napi-package-template-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -184,7 +184,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./package-template.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('@napi-rs/package-template-linux-arm64-gnu')
+              nativeBinding = require('@zitao/napi-package-template-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -197,7 +197,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./package-template.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('@napi-rs/package-template-linux-arm-gnueabihf')
+            nativeBinding = require('@zitao/napi-package-template-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e

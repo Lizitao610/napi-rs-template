@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/zitao-package-template",
+  "name": "@zitao/napi-package-template",
   "version": "3.0.1",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
